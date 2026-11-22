@@ -1,0 +1,2 @@
+/* Overrides for running the former Odoo site without Odoo's JavaScript */
+.o_animate, .o_animate_on_scroll { visibility: visible !important; opacity: 1 !important; animation: none !important; transform: none !important; }
