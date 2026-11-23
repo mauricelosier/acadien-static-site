@@ -1,4 +1,4 @@
-// Contact form → mailer API (same origin, routed by Caddy to the mailer container)
+// Contact form → webapi /api/contact (same origin; Caddy proxies to the webapi container and adds the X-Api-Key header)
 (function () {
   var form = document.getElementById('contactus_form');
   if (!form) return;
@@ -38,17 +38,17 @@
     if (v('company')) extra.push(T.company + ': ' + v('company'));
 
     var payload = {
-      Name: v('name'),
-      Email: v('email_from'),
-      Subject: v('subject'),
-      Message: v('description') + (extra.length ? '\n\n' + extra.join('\n') : '')
+      name: v('name'),
+      email: v('email_from'),
+      subject: v('subject'),
+      message: v('description') + (extra.length ? '\n\n' + extra.join('\n') : '')
     };
 
     btn.disabled = true;
     var label = btn.textContent;
     btn.textContent = T.sending;
 
-    fetch('/api/mailer/send/', {
+    fetch('/api/contact', {
       method: 'POST',
       headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
