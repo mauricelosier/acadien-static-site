@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.acadienlandscaping.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.acadienlandscaping.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.acadienlandscaping.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.acadienlandscaping.com/"/>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.acadienlandscaping.com/fr</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.acadienlandscaping.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.acadienlandscaping.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.acadienlandscaping.com/"/>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.acadienlandscaping.com/our-services</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.acadienlandscaping.com/our-services"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.acadienlandscaping.com/fr/our-services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.acadienlandscaping.com/our-services"/>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.acadienlandscaping.com/fr/our-services</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.acadienlandscaping.com/our-services"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.acadienlandscaping.com/fr/our-services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.acadienlandscaping.com/our-services"/>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.acadienlandscaping.com/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.acadienlandscaping.com/about-us"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.acadienlandscaping.com/fr/about-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.acadienlandscaping.com/about-us"/>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.acadienlandscaping.com/fr/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.acadienlandscaping.com/about-us"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.acadienlandscaping.com/fr/about-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.acadienlandscaping.com/about-us"/>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.acadienlandscaping.com/contactus</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.acadienlandscaping.com/contactus"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.acadienlandscaping.com/fr/contactus"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.acadienlandscaping.com/contactus"/>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.acadienlandscaping.com/fr/contactus</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.acadienlandscaping.com/contactus"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.acadienlandscaping.com/fr/contactus"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.acadienlandscaping.com/contactus"/>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+</urlset>

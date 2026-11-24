@@ -1,0 +1,6 @@
+# robots.txt for www.acadienlandscaping.com
+# Everything on the public site may be crawled.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.acadienlandscaping.com/sitemap.xml
