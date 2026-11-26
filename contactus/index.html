@@ -259,46 +259,46 @@
                                                         <span class="s_website_form_label_content">Name</span>
                                                         <span class="s_website_form_mark"> *</span>
                                                     </label>
-                                                    <input id="contact1" type="text" class="form-control s_website_form_input" name="name" required="" data-fill-with="name">
+                                                    <input id="contact1" type="text" class="form-control s_website_form_input" name="name" required="" maxlength="100" data-fill-with="name">
                                                 </div>
                                                 <div class="mb-3 col-lg-6 s_website_form_field s_website_form_custom" data-type="char" data-name="Field">
                                                     <label class="s_website_form_label" style="width: 200px" for="contact2">
                                                         <span class="s_website_form_label_content">Phone Number</span>
                                                     </label>
-                                                    <input id="contact2" type="tel" class="form-control s_website_form_input" name="phone" data-fill-with="phone">
+                                                    <input id="contact2" type="tel" class="form-control s_website_form_input" name="phone" maxlength="30" data-fill-with="phone">
                                                 </div>
                                                 <div class="mb-3 col-lg-6 s_website_form_field s_website_form_required s_website_form_model_required" data-type="email" data-name="Field">
                                                     <label class="s_website_form_label" style="width: 200px" for="contact3">
                                                         <span class="s_website_form_label_content">Email</span>
                                                         <span class="s_website_form_mark"> *</span>
                                                     </label>
-                                                    <input id="contact3" type="email" class="form-control s_website_form_input" name="email_from" required="" data-fill-with="email">
+                                                    <input id="contact3" type="email" class="form-control s_website_form_input" name="email_from" required="" maxlength="254" data-fill-with="email">
                                                 </div>
                                                 <div class="mb-3 col-lg-6 s_website_form_field s_website_form_custom" data-type="char" data-name="Field">
                                                     <label class="s_website_form_label" style="width: 200px" for="contact4">
                                                         <span class="s_website_form_label_content">Company</span>
                                                     </label>
-                                                    <input id="contact4" type="text" class="form-control s_website_form_input" name="company" data-fill-with="commercial_company_name">
+                                                    <input id="contact4" type="text" class="form-control s_website_form_input" name="company" maxlength="100" data-fill-with="commercial_company_name">
                                                 </div>
                                                 <div class="mb-3 col-12 s_website_form_field s_website_form_required s_website_form_model_required" data-type="char" data-name="Field">
                                                     <label class="s_website_form_label" style="width: 200px" for="contact5">
                                                         <span class="s_website_form_label_content">Subject</span>
                                                         <span class="s_website_form_mark"> *</span>
                                                     </label>
-                                                    <input id="contact5" type="text" class="form-control s_website_form_input" name="subject" required="">
+                                                    <input id="contact5" type="text" class="form-control s_website_form_input" name="subject" required="" maxlength="150">
                                                 </div>
                                                 <div class="mb-3 col-12 s_website_form_field s_website_form_custom s_website_form_required" data-type="text" data-name="Field">
                                                     <label class="s_website_form_label" style="width: 200px" for="contact6">
                                                         <span class="s_website_form_label_content">Question</span>
                                                         <span class="s_website_form_mark"> *</span>
                                                     </label>
-                                                    <textarea id="contact6" class="form-control s_website_form_input" name="description" required="" rows="8"></textarea>
+                                                    <textarea id="contact6" class="form-control s_website_form_input" name="description" required="" maxlength="4500" rows="8"></textarea>
                                                 </div>
                                                 <div class="mb-0 py-2 col-12 s_website_form_submit s_website_form_no_submit_label text-end" data-name="Submit Button">
                                                     <div style="width: 200px;" class="s_website_form_label"></div>
-                                                    <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+                                                    <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden"><label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
                                                     <button type="submit" class="btn btn-primary s_website_form_send">Submit</button>
-                                                    <span id="s_website_form_result"></span>
+                                                    <span id="s_website_form_result" role="status"></span>
                                                 </div>
                                             </div>
                                         </form>
@@ -374,4 +374,4 @@
         
         
 <script src="../assets/js/bootstrap.bundle.min.js"></script>
-<script src="../assets/js/contact-form.js"></script></body></html>
+<script src="../assets/js/contact-form.js?v=2"></script></body></html>
